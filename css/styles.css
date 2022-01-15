@@ -439,12 +439,10 @@ h3 {
 }
 
 
-/*
-#section-5 .rw > div {
-	flex-basis: calc(100% / 2 -100);
-	 margin: 0px 50px;
+#section-5 {
+	padding-bottom: 200px;
 }
-*/
+*
 
 #section-5 .wrapper {
 	background-image: url(../images/city-image.png);
@@ -592,6 +590,54 @@ h3 {
 }
 
 
+
+#section-6 h2 {
+	color: #E3B873;
+}
+
+#section-6 ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+
+#section-6 ul > li {
+	font-size: 20px;
+	line-height: 50px;
+}
+
+
+.underlined {
+	text-decoration: underline;
+}
+
+
+#section-6 .gallery-div img {
+	margin: 15px 0;
+	width: 100%;
+}
+
+
+.gallery-div {
+	padding: 0 0 0 30px;
+	flex-basis: 30%;
+}
+
+
+#section-6 .rw > div:nth-child(1) {
+	flex-basis: 40%;
+	padding: 40px 0;
+}
+
+#section-6 .rw > div:nth-child(2) {
+	margin-top: -110px;
+	margin-bottom: -110px;
+}
+
+#section-6 .rw > div:nth-child(3) {
+	margin-top: -170px;
+	margin-bottom: -40px;
+}
 
 .rw {
 	display: flex;

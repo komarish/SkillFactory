@@ -311,7 +311,8 @@ h3 {
 
 
 
-#section-3 form .label-input, .input {
+#section-3 form .label-input, 
+#section-3 form .input {
 	margin: 0 20px;
 }
 
@@ -436,6 +437,160 @@ h3 {
 #section-4 .text-card {
 	margin-top: -200px;
 }
+
+
+/*
+#section-5 .rw > div {
+	flex-basis: calc(100% / 2 -100);
+	 margin: 0px 50px;
+}
+*/
+
+#section-5 .wrapper {
+	background-image: url(../images/city-image.png);
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+}
+
+#section-5 .rw > div:nth-child(1) {
+	
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+
+
+
+.step-list {
+	list-style-type: none;
+}
+
+
+.step-list > li {
+	margin-bottom: 125px;
+	padding-left: 70px; 
+}
+
+.step-list > li:before {
+	content: attr(data-list);
+	
+	font-family: Yeseva One;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+
+	color: #FFFFFF;
+	
+	background: #E3B873;
+	border: 8px solid #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 50%;
+	
+	padding: 10px;
+	
+	display: inline-block;
+	margin-left: -70px;
+	margin-top: -20px;
+	height: 25px;
+	width: 25px;
+	float: left;
+}
+
+
+
+#section-5 form {
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+	font-size: 14px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+	
+	padding: 50px;
+}
+
+#section-5 .label-input {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#section-5 .input {
+	width: 100%;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+#section-5 .input::placeholder {
+	color: #FFFFFF;
+}
+
+#section-5 form > p {
+	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 0px 70px;
+}
+
+#section-5 form > div > div {
+	margin-top: 50px;
+}
+
+#section-5 .checkbox {
+	margin-left: 10px;
+}
+
+#section-5 .checkbox label:after {
+	border: 1px solid white;
+	background-color: white;	
+}
+
+
+#section-5 .checkbox input[type=checkbox]:checked + label:after {
+	content:'✔';
+	border:2px solid #E3B873;
+	background: #E3B873;
+}
+
+
+#section-5 .button {
+	font-style: normal;
+	margin-left: 200px;
+}
+
+
+
+#section-5 .sticker-div {
+	padding: 10px 10% 0px 65%;
+}
+
+#section-5 .sticker-div > p {
+	font-size: 18px;
+	line-height: 26px;
+	color: #E3B873;
+	text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+	display: inline-block;
+}
+
+
+#section-5 .sticker-div > p::before {
+	content: '';
+	display: inline-block;
+	color: #FFFFFF;
+	
+	background-color: #E3B873;
+	background-image: url(../images/pig-image.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 50%;
+	
+	padding: 10px;
+	
+	display: inline-block;
+	margin-left: -80px;
+	margin-top: -10px;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
 
 
 .rw {

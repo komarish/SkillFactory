@@ -37,8 +37,8 @@ body * {
 
 .header {
 	background-color: #131313;
-	
 }
+
 
 .wrapper {
 	max-width: 1440px;
@@ -51,6 +51,11 @@ body * {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.header-content a {
+	color: #E3B873;
+}
+
 .header-content.wrapper {
 	padding: 10px 100px;
 }
@@ -638,6 +643,226 @@ h3 {
 	margin-top: -170px;
 	margin-bottom: -40px;
 }
+
+
+.rounded {
+	border-radius: 50%;
+}
+
+#section-7 {
+	padding-bottom: 300px;
+	padding-top: 50px;
+	background-image: url(../images/section-7-background-image.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+
+#section-7 h2 {
+	text-align: center;
+}
+
+#section-7 .wrapper > p {
+	text-align: center;
+	padding: 0 40% 20px 40%;
+}
+
+
+#section-7 blockquote {
+	margin: 0;
+	
+}
+
+
+
+#section-7 blockquote > p {
+	font-size: 13px;
+	line-height: 180%;
+	color: #959595;
+}
+
+#section-7 .rw {
+	justify-content: space-between;
+}
+
+#section-7 .rw .text-card {
+	flex-basis: calc(100% / 3 - 20px);
+	padding: 10px 40px 10px 20px;
+}
+
+
+#section-7 .text-card > img {
+	float: left;
+}
+
+
+
+#section-7 .text-card > h4 {
+	height: 75px;
+	margin: 0;
+	align-items: center;
+	align-content: center;
+	padding-left: 20px;
+}
+
+
+
+
+#section-7 .parameters > img {
+	float: left;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+
+.footer {
+	background-image: linear-gradient(0deg, #181818 0px, #181818 130px, transparent 130px), linear-gradient(0deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%), url(../images/footer-background-image.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+
+
+
+.footer .dark-background {
+	margin-top: -300px;
+	background-color: transparent;
+	
+}
+
+
+
+.footer form {
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+	font-size: 14px;
+	line-height: 23px;
+
+	color: #FFFFFF;
+	
+	padding: 50px;
+	width: 880px;
+	height: 450px;
+	
+	display: inline-block;		
+}
+
+.footer form h2 {
+	padding-bottom: 50px;
+}
+
+
+.footer form .rc > div:nth-child(1) {
+	flex-basis: 50%;
+}
+
+
+.footer form .rc > div:nth-child(2) {
+	flex-basis: 50%;
+}
+
+.footer form .rc > div:nth-child(3) {
+	flex-basis: 100%;
+	padding: 30px 0;
+}
+
+.footer form .rc > div:nth-child(5) {
+	flex-basis: 100%;
+}
+
+
+.footer form .rc > p {
+	flex-basis: auto;
+}
+
+.footer .label-input {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .input {
+	width: 100%;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.footer .input::placeholder {
+	color: #FFFFFF;
+}
+
+
+.footer .dark-background {
+	text-align: center;
+}
+
+
+.footer .checkbox {
+	margin-left: 10px;
+}
+
+.footer .checkbox label:after {
+	border: 1px solid white;
+	background-color: white;	
+}
+
+
+.footer .checkbox input[type=checkbox]:checked + label:after {
+	content:'✔';
+	border:2px solid #E3B873;
+	background: #E3B873;
+}
+
+
+.footer form .button {
+	font-style: normal;
+}
+
+
+.addr-ref {
+	list-style-type: none;
+	text-align: center;
+}
+
+.addr-ref li {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}
+
+.addr-ref li > a {
+	display: inline-block;
+	background-color: #E3B873;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+	padding-top: 7px;
+	text-align: center;
+}
+
+
+.footer address {
+	font-style: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px; 
+}
+
+
+.footer .map {
+	background-image: url(../images/map-image.png);
+	background-size: cover;
+	height: 500px;
+	width: 1000px;
+	margin: 50px auto 100px auto;
+}
+
+
+.footer .header-content {
+	background-color: #181818;
+}
+
+
 
 .rw {
 	display: flex;

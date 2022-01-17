@@ -134,6 +134,118 @@
 		padding: 20px 0;
 	}
 	
+	#section-3 {
+		background: #131313;
+	}
+	
+	#section-3 p {
+		color: white;
+	}
+	
+	#section-3 > div > div:nth-child(2) > p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#section-3 form {
+		background: #131313;
+		box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+		font-size: 14px;
+		line-height: 23px;
+
+		color: #FFFFFF;
+
+		padding: 0 0 30px 0;
+	}
+
+	#section-3 .label-input {
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	#section-3 .input {
+		width: 100%;
+		background-color: transparent;
+		color: #FFFFFF;
+	}
+	#section-3 .input::placeholder {
+		color: #FFFFFF;
+	}
+	
+	
+	#section-3 form > div {
+		flex-wrap: wrap;
+	}
+	
+	#section-3 form > div > div {
+		flex-basis: 100%;
+		padding: 20px 0;
+	}
+	
+	#section-3 form > p {
+		text-align: left;
+		font-size: 18px;
+		line-height: 26px;
+		padding: 0px 30px 0 40px;
+		display: block;
+	}
+
+	
+	#section-3 > div > form > div > div:nth-child(3) {
+		margin-bottom: -300px;
+	}
+
+	#section-3 .checkbox {
+		left: 10px;
+	}
+
+	#section-3 .checkbox label:after {
+		border: 1px solid white;
+		background-color: white;	
+		left: 10px;
+	}
+
+
+	#section-3 .checkbox input[type=checkbox]:checked + label:after {
+		content:'✔';
+		border:2px solid #E3B873;
+		background: #E3B873;
+	}
+
+	.video-div img {
+		width: 100%;
+	}
+	
+	#section-3 .button {
+		width: 100%;
+		padding: 20px 33px;
+	}
+	
+	
+	#section-4 .rw {
+		flex-wrap: wrap;
+	}
+	
+	#section-4 .rw > div {
+		flex-basis: 100%;
+		margin: 30px 0px;
+		text-align: left;
+	}
+	
+	#section-4 .rw > div > img {
+		object-fit: cover;
+		width: 100%;
+		height: 300px;
+	}
+	
+	#section-4 .text-card {
+		margin-top: -170px;
+		box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+	}
+	
+	#section-4 .parameters {
+		margin-bottom: -20px;
+	}
+	
 }
 
 

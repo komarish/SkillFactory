@@ -1,0 +1,55 @@
+/**/
+@media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
+	
+	h1 {
+		font-size: 23px;
+	}
+	
+	.header-navigation {
+		display: none;
+	}
+	
+	.header .button {
+		display: none;
+	}
+	
+	.header a {
+		color: white;
+	}
+	
+	.wrapper {
+		padding: 20px;
+	}
+	
+	.header-content.wrapper {
+		padding: 10px 20px;
+	}
+	
+	#section-1 {
+		min-height: 0;
+		padding: 50px 0;
+	}
+	
+	#section-1 .button {
+		width: 100%;
+		
+	}
+	
+	#section-1 > .wrapper .submit-button {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	
+	#section-1 > .wrapper > * {
+    max-width: none;
+}
+}
+
+
+
+/*
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+	
+
+}
+*/

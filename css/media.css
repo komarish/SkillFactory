@@ -211,15 +211,16 @@
 		background: #E3B873;
 	}
 
-	.video-div img {
-		width: 100%;
-	}
+	
 	
 	#section-3 .button {
 		width: 100%;
 		padding: 20px 33px;
 	}
 	
+	.video-div img {
+		width: 100%;
+	}
 	
 	
 	#section-4 {
@@ -345,17 +346,103 @@
 	}
 	
 	
+	#section-7 {
+		display: none;
+	}
 	
+	.footer {
+		background-image: none;
+	}
 	
 	.footer .dark-background {
 		margin-top: 0;
 		background-color: transparent;
 	}
 	
-	#section-7 {
-		display: none;
+	
+	/**/
+	
+	.footer form {
+		background: #131313;
+		box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+		font-size: 14px;
+		line-height: 23px;
+
+		color: #FFFFFF;
+
+		padding: 0 0 30px 0;
+	}
+
+	
+	.footer form .rc > div:nth-child(1) {
+		flex-basis: 100%;
+		padding: 20px 0;
 	}
 	
+	.footer form .rc > div:nth-child(2) {
+		flex-basis: 100%;
+		padding: 20px 0;
+	}
+	
+	
+	
+	
+	.footer form p {
+		text-align: left;
+		font-size: 18px;
+		line-height: 26px;
+		padding: 0px 30px 0 40px;
+		display: block;
+	}
+
+	
+	.footer form .rc > p {
+		flex-basis: 100%;
+	}
+	
+	.footer .checkbox {
+		left: 0px;
+	}
+
+	.footer .checkbox label:after {	
+		left: 0px;
+	}
+
+	
+	
+	.footer .button {
+		width: 100%;
+		padding: 20px 33px;
+	}
+	
+	/**/
+	
+	
+	.footer > div > div:nth-child(2) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.footer > div > div:nth-child(2) > address {
+		flex-basis: 100%;
+		order: 2;
+		padding-top: 0;
+	}
+	
+	.footer > div > div:nth-child(2) > ul {
+		flex-basis: 100%;
+		order: 3;
+	}
+	
+	.footer > div > div:nth-child(2) > div {
+		flex-basis: 100%;
+		order: 1;
+		margin-top: 100px;
+	}
+	
+	.footer .header-content {
+		display: none;
+	}
 	
 }
 

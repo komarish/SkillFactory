@@ -749,6 +749,7 @@ h3 {
 	padding: 50px;
 	width: 880px;
 	height: 450px;
+	max-width: 100%;
 	
 	display: inline-block;		
 }
@@ -858,6 +859,7 @@ h3 {
 .footer .map {
 	background-image: url(../images/map-image.png);
 	background-size: cover;
+	background-position: center center;
 	height: 500px;
 	width: 1000px;
 	margin: 50px auto 100px auto;

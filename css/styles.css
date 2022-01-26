@@ -10,6 +10,7 @@ body * {
 	box-sizing: border-box;
 }
 
+/*логотип из хедера*/
 .logo {
 	font-size: 11px;
 	line-height: 15px;
@@ -17,6 +18,7 @@ body * {
 	text-transform: uppercase;
 }
 
+/*базовые стили кнопок*/
 .button {
 	background: #E3B873;
 	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -82,7 +84,7 @@ body * {
 
 
 
-
+/*базовые стили заголовков*/
 .title {
 	margin: 0;
 	font-family: Yeseva One;
@@ -105,7 +107,7 @@ h3 {
 }
 
 
-
+/*класс для выделения текста*/
 .yellow-span {
 	color: #E3B873;
 }
@@ -117,6 +119,8 @@ h3 {
 	box-sizing: border-box;
 }
 
+
+/*Первая секция*/
 #section-1 {
 	background-image: linear-gradient(0deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.7) 100%), url(../images/underheader-image.jpg);
 	background-size: cover;
@@ -137,11 +141,13 @@ h3 {
 	display: none;
 }
 
+/*класс с темным фоновым цветом*/
 .dark-background {
 	background: #131313;
 	color: white;
 }
 
+/*класс со светлым фоновым цветом*/
 .light-background {
 	background: #FFFFFF;
 	color: black;
@@ -175,6 +181,7 @@ h3 {
 	border-bottom: 1px solid #E3B873;
 }
 
+/*Вторая секция*/
 #section-2 .horizontal-list {
 	padding-left: calc(45% - 20px);
 }
@@ -212,21 +219,23 @@ h3 {
 }
 
 
-
+/*выделение активного элемента*/
 .active {
 	color: #FFFFFF;
 }
 
+/*цвет жлемента, когда он не активен*/
 .inactive {
 	color: rgba(255, 255, 255, 0.3);
 }
+
 
 
 #section-2 {
 	padding-bottom: 370px;
 }
 
-
+/*Третья секция*/
 #section-3 {
 	margin-top: -370px;
 }
@@ -262,6 +271,7 @@ h3 {
 }
 
 
+/*элементы декора*/
 .decor-image {
 	text-align: center;
 	padding: 50px 0;
@@ -299,8 +309,6 @@ h3 {
 	text-align: center;
 	padding: 25px 0 40px 0;
 }
-
-
 
 
 
@@ -348,7 +356,7 @@ h3 {
 	border-radius: 1px;
 }
 
-/**/
+
 .checkbox {
 	position:relative;
 	padding-left:25px;
@@ -396,12 +404,13 @@ h3 {
 }
 
 
-
+/*Четвертая секция*/
 #section-4 h2 {
 	text-align: center;
 }
 
-
+/*Прямоугольник с текстом, 
+как в секции с клиентами и типами ремонта*/
 .text-card {
 	background: white;
 	position: relative;
@@ -421,7 +430,7 @@ h3 {
 	padding-right: 100px;
 }
 
-
+/*оранжевые прямоугольники с параметрами*/
 .parameters {
 	background: #E3B873;
 	box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
@@ -449,7 +458,7 @@ h3 {
 	margin-top: -200px;
 }
 
-
+/*Пятая секция*/
 #section-5 {
 	padding-bottom: 200px;
 }
@@ -466,7 +475,6 @@ h3 {
 	padding-left: 80px;
 	padding-right: 80px;
 }
-
 
 
 
@@ -585,7 +593,7 @@ h3 {
 	color: #FFFFFF;
 	
 	background-color: #E3B873;
-	background-image: url(../images/pig-image.png);
+	background-image: url(../images/pig-image.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	border-radius: 50%;
@@ -601,7 +609,7 @@ h3 {
 }
 
 
-
+/*Шестая секция*/
 #section-6 h2 {
 	color: #E3B873;
 }
@@ -655,6 +663,8 @@ h3 {
 	border-radius: 50%;
 }
 
+
+/*Седьмая секция*/
 #section-7 {
 	padding-bottom: 300px;
 	padding-top: 50px;
@@ -678,7 +688,6 @@ h3 {
 	margin: 0;
 	
 }
-
 
 
 #section-7 blockquote > p {
@@ -895,6 +904,7 @@ h3 {
 }
 
 
+/*Подключение шрифтов*/
 @font-face {
 font-family: "Nunito Sans";  
 src: url("../fonts/NunitoSans-Regular.ttf") format("truetype"); 
